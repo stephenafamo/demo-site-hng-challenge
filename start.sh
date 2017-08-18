@@ -1,0 +1,1 @@
+docker run --name hng_fend -v ./public:/usr/share/nginx/html -d nginx:1.13
