@@ -4,7 +4,6 @@ camera = document.getElementById('camera');
 overlay = document.getElementById('overlay');
 
 addOrClose.addEventListener("click", function(event){
- 	console.log(addOrClose)
 	state = addOrClose.getAttribute("data-state")
 	if (state == "add") {
 		addOrClose.style.animation = "addToClose 0.5s forwards";
